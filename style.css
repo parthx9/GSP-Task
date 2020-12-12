@@ -1,0 +1,120 @@
+.page{
+    display: flex;
+}
+.bold{
+    font-weight: 700 !important;
+}
+.left{
+    background-color: #7c44d4;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 0%;
+}
+.left h3{
+    font-weight: 700;
+    font-size: 36px;
+    padding: 20px;
+}
+.left .name{
+    color: #cb8f00;
+}
+.bal-info{
+    padding: 20px 0px;
+    font-weight: 18px;
+}
+.green{
+    color: green;
+}
+.left .bal{
+    background-color: #996ede;
+    border-radius: 0px 30px 30px 0px;
+    padding: 15px 20px 15px 0px;
+    font-size: 20px;
+}
+.info{
+    padding: 20px 0px;
+    font-size: 24px;
+    line-height: 2;
+}
+.close-btn{
+    background: #ed213a; /* fallback for old browsers */
+    background: linear-gradient(to right, #ed213a, #93291e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 30px 0px;
+}
+.right{
+    background-color: #451E83;
+}
+.right .row{
+    margin: 0;
+    padding: 0;
+}
+.ticket{
+    background: rgb(34,193,195);
+    background: linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin: 40px 150px 40px 150px;
+    padding-right: 0%;
+    /* padding: 10px 10px 10px 0px; */
+    border-radius: 10px;
+    border-top-left-radius: 10px !important;
+    color: #ffffff;
+}
+.ticket .col-1, .col-9, .col-2{
+    margin: 0%;
+    padding: 0%;
+}
+.ticket-left{
+    display: flex;
+    background-color: #3EC2E6;
+    padding: 10px 10px 10px 0px;
+    border-radius: 10px 0px 0px 10px;
+}
+.ticket-left .semi-circle{
+    border-radius: 0 30px 30px 0;
+    background: #451E83;
+    height: 30px;
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.ticket-right{
+    padding:10px !important;
+    padding-right: 0% !important;
+}
+.ticket-right h1{
+    font-weight: 700;
+    font-size: 46px;
+}
+.ticket-right p {
+    font-size: 14px;
+    line-height: 1;
+}
+.ticket-right h6{
+    color: black;
+    font-weight: 700;
+}
+.upright{
+    writing-mode: vertical-lr;
+    margin-top: auto;
+    margin-bottom: auto;
+    transform: rotate(180deg);
+    font-weight: 700;
+    font-size: 20px;
+}
+.semi-circle-r{
+    border-radius: 30px 0px 0px 30px;
+    background: #451E83;
+    height: 30px;
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+@media (max-width: 768px){
+    .ticket{
+        margin: 20px;
+    }
+}
